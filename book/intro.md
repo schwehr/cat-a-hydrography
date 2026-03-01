@@ -1,6 +1,16 @@
 (intro)=
-# Welcome to the Template Book
+# Welcome to the TeachBooks Template
 
-_This is the first page the student will see when opening the url._
+This interactive platform is designed specifically for creating engaging, high-quality educational materials for University Students, Professional Learners, and Practitioners. 
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+By prioritizing a Minimalist and Focused UX, we ensure an accessible and intuitive learning journey.
+
+## Pedagogical Approach
+The TeachBook employs a Problem-Based Learning instructional strategy. We introduce concepts through authentic challenges, leading directly into step-by-step tutorials and actionable solutions.
+
+## Getting Started
+To get started, please follow our foundational step-by-step guides:
+- [Basics of TeachBooks](tutorials/basics.md)
+- [Interactive Widgets Integration](tutorials/interactive_widgets.md)
+
+Explore these tutorials to build and enhance your educational content effectively.
