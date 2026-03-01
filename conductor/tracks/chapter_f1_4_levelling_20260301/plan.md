@@ -4,7 +4,7 @@
 - [x] Task: Create initial markdown file `book/f1.4-levelling.md` with headers matching the S-5A syllabus sections. 39a9f7c
 - [x] Task: Integrate introductory content and the "Problem-Based Scenario" setting up the chapter. 15e4467
 - [x] Task: Draft section on "Levelling instruments" and "Total stations" using `deepresearch/f1.4-levelling.md` as a source.
-- [ ] Task: Add relevant CC-0 references and inline links (Wikipedia/GCMD) to the drafted sections.
+- [x] Task: Add relevant CC-0 references and inline links (Wikipedia/GCMD) to the drafted sections. 75ba4b8
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Structure and Core Instrumentation' (Protocol in workflow.md)
 
 ## Phase 2: Refraction, Curvature, and Reduction
