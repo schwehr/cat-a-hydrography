@@ -23,3 +23,11 @@ def test_intro_links():
 def test_references_file_exist():
     assert os.path.exists('book/references.md')
 
+
+def test_toc_includes_tutorials():
+    assert os.path.exists("book/_toc.yml")
+    with open("book/_toc.yml", "r") as f:
+        content = f.read()
+    assert "tutorials/basics" in content or "tutorials/basics.md" in content, "TOC must include basics tutorial"
+    assert "tutorials/interactive_widgets" in content or "tutorials/interactive_widgets.md" in content, "TOC must include interactive widgets tutorial"
+
