@@ -9,7 +9,7 @@
 - [x] Task: Write Tests: Create link validation tests for new documentation files. 02b2d7a
 - [x] Task: Implement Feature: Update `README.md` with action-oriented setup instructions. 93189e9
 - [x] Task: Write Tests: Verify existence of foundational tutorial pages in `book/`. 792545f
-- [ ] Task: Implement Feature: Draft step-by-step tutorials for basic TeachBook usage.
+- [x] Task: Implement Feature: Draft step-by-step tutorials for basic TeachBook usage. 36806e0
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Update Core Concept and Setup Guides' (Protocol in workflow.md)
 
 ## Phase 3: Enhance Interactive Feature Documentation
