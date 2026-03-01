@@ -31,3 +31,11 @@ def test_toc_includes_tutorials():
     assert "tutorials/basics" in content or "tutorials/basics.md" in content, "TOC must include basics tutorial"
     assert "tutorials/interactive_widgets" in content or "tutorials/interactive_widgets.md" in content, "TOC must include interactive widgets tutorial"
 
+
+def test_interactive_widgets_content():
+    assert os.path.exists("book/tutorials/interactive_widgets.md")
+    with open("book/tutorials/interactive_widgets.md", "r") as f:
+        content = f.read()
+    assert "Syntax Exercises" in content, "Must include documentation for syntax exercises"
+    assert "Problem:" in content or "Challenge:" in content, "Must use Problem-Based Learning approach"
+
