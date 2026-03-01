@@ -14,5 +14,5 @@
 
 ## Phase 3: Enhance Interactive Feature Documentation
 - [x] Task: Write Tests: Create validation for interactive widget documentation. 4329051
-- [ ] Task: Implement Feature: Document how to use TeachBooks extensions (e.g., syntax exercises) with problem-based examples.
+- [x] Task: Implement Feature: Document how to use TeachBooks extensions (e.g., syntax exercises) with problem-based examples. a83edf9
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Enhance Interactive Feature Documentation' (Protocol in workflow.md)
