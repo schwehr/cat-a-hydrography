@@ -1,5 +1,5 @@
 # Initial Concept
-A TeachBook template for creating and hosting interactive Jupyter books without extensive knowledge of Git or web servers.
+A TeachBook template for creating and hosting interactive Jupyter books without extensive knowledge of Git or web servers, designed to serve University Students, Professional Learners, and Practitioners using a Problem-Based Learning approach.
 
 # Product Guide
 
