@@ -6,7 +6,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Documentation Audit and Restructuring' (Protocol in workflow.md) 17fc8c2
 
 ## Phase 2: Update Core Concept and Setup Guides
-- [ ] Task: Write Tests: Create link validation tests for new documentation files.
+- [x] Task: Write Tests: Create link validation tests for new documentation files. 02b2d7a
 - [ ] Task: Implement Feature: Update `README.md` with action-oriented setup instructions.
 - [ ] Task: Write Tests: Verify existence of foundational tutorial pages in `book/`.
 - [ ] Task: Implement Feature: Draft step-by-step tutorials for basic TeachBook usage.
