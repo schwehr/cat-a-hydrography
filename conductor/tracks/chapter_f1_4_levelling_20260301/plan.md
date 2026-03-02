@@ -17,9 +17,9 @@
 
 ## Phase 3: Calibration and Data Management
 - [x] Task: Write Tests: Create `tests/test_f1_4_database.py` to test dataset processing with SQLite/DuckDB. ef2e8ee
-- [ ] Task: Implement Feature: Draft section on "Calibration requirements and documentation".
-- [ ] Task: Implement Feature: Add data processing examples for level reduction using SQLite and DuckDB, ensuring they pass the database tests.
-- [ ] Task: Implement Feature: Draft section on "Height reduction (F1.4b)" emphasizing conducting surveys in accordance with standards.
+- [x] Task: Implement Feature: Draft section on "Calibration requirements and documentation". ccd5348
+- [x] Task: Implement Feature: Add data processing examples for level reduction using SQLite and DuckDB, ensuring they pass the database tests. ccd5348
+- [x] Task: Implement Feature: Draft section on "Height reduction (F1.4b)" emphasizing conducting surveys in accordance with standards. ccd5348
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Calibration and Data Management' (Protocol in workflow.md)
 
 ## Phase 4: Review and Finalization
