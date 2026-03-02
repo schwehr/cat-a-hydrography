@@ -9,10 +9,10 @@
 
 ## Phase 2: Refraction, Curvature, and Reduction
 - [x] Task: Write Tests: Create `tests/test_f1_4_calculations.py` for Python calculation snippets relating to curvature, refraction, and level reduction. e065365
-- [ ] Task: Implement Feature: Draft section on "Effects of curvature and refraction".
-- [ ] Task: Implement Feature: Write and embed Python snippets in `book/f1.4-levelling.md` for curvature/refraction calculations ensuring they pass the unit tests.
-- [ ] Task: Implement Feature: Draft section on "Reduction of levels and correction to the relevant height datum".
-- [ ] Task: Implement Feature: Write and embed Python snippets for level reduction calculations, ensuring they pass the tests.
+- [x] Task: Implement Feature: Draft section on "Effects of curvature and refraction". a8680c7
+- [x] Task: Implement Feature: Write and embed Python snippets in `book/f1.4-levelling.md` for curvature/refraction calculations ensuring they pass the unit tests. a8680c7
+- [x] Task: Implement Feature: Draft section on "Reduction of levels and correction to the relevant height datum". a8680c7
+- [x] Task: Implement Feature: Write and embed Python snippets for level reduction calculations, ensuring they pass the tests. a8680c7
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Refraction, Curvature, and Reduction' (Protocol in workflow.md)
 
 ## Phase 3: Calibration and Data Management
