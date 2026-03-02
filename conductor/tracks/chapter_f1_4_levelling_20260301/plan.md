@@ -22,8 +22,8 @@
 - [x] Task: Implement Feature: Draft section on "Height reduction (F1.4b)" emphasizing conducting surveys in accordance with standards. ccd5348
 - [x] Task: Conductor - User Manual Verification 'Phase 3: Calibration and Data Management' (Protocol in workflow.md) 1f9af91
 
-## Phase 4: Review and Finalization
+## Phase 4: Review and Finalization [checkpoint: a6c201d]
 - [x] Task: Review the entire chapter for the "Academic and Action-Oriented" tone. e97a2cc
 - [x] Task: Verify that all terminology is correctly linked (GCMD Viewer, Wikipedia). e97a2cc
 - [x] Task: Add `book/f1.4-levelling.md` to `book/_toc.yml` to ensure it is published. e97a2cc
-- [ ] Task: Conductor - User Manual Verification 'Phase 4: Review and Finalization' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 4: Review and Finalization' (Protocol in workflow.md) a6c201d
