@@ -8,6 +8,7 @@ parts:
     chapters:
     - file: tutorials/basics.md
     - file: tutorials/interactive_widgets.md
+    - file: f1.4-levelling.md
   - caption: Exercises
     chapters:
     - file: exercises.md
