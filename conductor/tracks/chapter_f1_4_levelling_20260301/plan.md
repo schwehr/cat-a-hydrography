@@ -15,12 +15,12 @@
 - [x] Task: Implement Feature: Write and embed Python snippets for level reduction calculations, ensuring they pass the tests. a8680c7
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Refraction, Curvature, and Reduction' (Protocol in workflow.md) 3c8be72
 
-## Phase 3: Calibration and Data Management
+## Phase 3: Calibration and Data Management [checkpoint: 1f9af91]
 - [x] Task: Write Tests: Create `tests/test_f1_4_database.py` to test dataset processing with SQLite/DuckDB. ef2e8ee
 - [x] Task: Implement Feature: Draft section on "Calibration requirements and documentation". ccd5348
 - [x] Task: Implement Feature: Add data processing examples for level reduction using SQLite and DuckDB, ensuring they pass the database tests. ccd5348
 - [x] Task: Implement Feature: Draft section on "Height reduction (F1.4b)" emphasizing conducting surveys in accordance with standards. ccd5348
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Calibration and Data Management' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Calibration and Data Management' (Protocol in workflow.md) 1f9af91
 
 ## Phase 4: Review and Finalization
 - [ ] Task: Review the entire chapter for the "Academic and Action-Oriented" tone.
