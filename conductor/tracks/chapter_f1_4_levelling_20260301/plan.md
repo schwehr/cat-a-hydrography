@@ -8,7 +8,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Structure and Core Instrumentation' (Protocol in workflow.md) 01c60ea
 
 ## Phase 2: Refraction, Curvature, and Reduction
-- [ ] Task: Write Tests: Create `tests/test_f1_4_calculations.py` for Python calculation snippets relating to curvature, refraction, and level reduction.
+- [x] Task: Write Tests: Create `tests/test_f1_4_calculations.py` for Python calculation snippets relating to curvature, refraction, and level reduction. e065365
 - [ ] Task: Implement Feature: Draft section on "Effects of curvature and refraction".
 - [ ] Task: Implement Feature: Write and embed Python snippets in `book/f1.4-levelling.md` for curvature/refraction calculations ensuring they pass the unit tests.
 - [ ] Task: Implement Feature: Draft section on "Reduction of levels and correction to the relevant height datum".
