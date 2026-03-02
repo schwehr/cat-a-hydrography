@@ -8,7 +8,7 @@
 * **TeachBooks Packages:** A curated suite of Sphinx extensions and tools designed specifically for educational content and interactive learning.
 
 ## Database
-* **None:** This project generates a static site and does not require a database backend.
+* **SQLite & DuckDB:** Utilized within Python code snippets and tutorials to demonstrate data processing techniques for students, though the site itself remains static.
 
 ## Deployment & Hosting
 * **GitHub Actions & GitHub Pages:** Continuous integration and deployment are handled natively through GitHub Actions, building and pushing the TeachBook to a publicly accessible GitHub Pages site.
