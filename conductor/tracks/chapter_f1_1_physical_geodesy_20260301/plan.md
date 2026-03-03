@@ -1,13 +1,13 @@
 # Implementation Plan: Chapter F1.1 Physical Geodesy
 
-## Phase 1: Gravity and Geopotential Models
+## Phase 1: Gravity and Geopotential Models [checkpoint: fa7bfa5]
 - [x] Task: Create initial markdown file `book/f1.1-physical-geodesy.md` with headers matching the S-5A syllabus sections. ab4b224
 - [x] Task: Write the introductory "Problem-Based Scenario" focusing on how gravity impacts hydrographic measurements (e.g., determining mean sea level).
 - [x] Task: Draft section on "F1.1a Gravity field of the Earth" covering equipotential surfaces, gravity, and gravity anomalies. Use `deepresearch/f1.1-physical-geodesy.md` as source material.
 - [x] Task: Write Tests: Create `tests/test_f1_1_gravity.py` for Python snippets calculating theoretical normal gravity (e.g., Somigliana equation).
 - [x] Task: Implement Feature: Embed the theoretical normal gravity Python snippets in the gravity anomalies section.
 - [x] Task: Draft section on "F1.1b Global geopotential models" focusing on spherical harmonics.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Gravity and Geopotential Models' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Gravity and Geopotential Models' (Protocol in workflow.md) fa7bfa5
 
 ## Phase 2: Height Systems and Deflection
 - [ ] Task: Draft section on "F1.1c Height systems" detailing dynamic, orthometric, and normal heights.
