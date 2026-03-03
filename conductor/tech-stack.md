@@ -5,6 +5,11 @@
 
 ## Frameworks & Tools
 * **Jupyter Book / Sphinx:** The core static site generator used to compile Markdown and Jupyter Notebooks into the final TeachBook.
+* **ipywidgets:** Interactive HTML widgets for Jupyter notebooks, allowing students to dynamically explore concepts like projection parameters.
+
+* **pyproj:** Essential Python interface to PROJ (cartographic projections and coordinate transformations library) used for geospatial examples and PBL activities.
+
+
 * **TeachBooks Packages:** A curated suite of Sphinx extensions and tools designed specifically for educational content and interactive learning.
 
 ## Database
