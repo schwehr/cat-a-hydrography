@@ -39,3 +39,9 @@ def test_interactive_widgets_content():
     assert "Syntax Exercises" in content, "Must include documentation for syntax exercises"
     assert "Problem:" in content or "Challenge:" in content, "Must use Problem-Based Learning approach"
 
+
+def test_f1_5_interactive_widget():
+    assert os.path.exists('book/f1.5-map-projections.md')
+    with open('book/f1.5-map-projections.md', 'r') as f:
+        content = f.read()
+    assert 'ipywidgets' in content or 'interact' in content or '{code-cell} ipython3' in content, "F1.5 must contain an interactive widget demonstration"
