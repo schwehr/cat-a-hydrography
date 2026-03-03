@@ -16,9 +16,9 @@
 - [x] Task: Draft section on "F1.1d Deflection of the vertical" explaining its components and impact on hydrographic sensors. 120ba48
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Height Systems and Deflection' (Protocol in workflow.md) 1b91cdc
 
-## Phase 3: Review and Finalization
+## Phase 3: Review and Finalization [checkpoint: f385643]
 - [x] Task: Add relevant CC-0 references and inline links (Wikipedia/Wiktionary/GCMD Viewer/NGS) throughout the drafted chapter. d43e0c9
 - [x] Task: Add an SQLite/DuckDB example showing how one might query a database of gravity anomalies or height conversions across a survey line. d43e0c9
 - [x] Task: Review the entire chapter to ensure the "Academic and Action-Oriented" tone is consistent. d43e0c9
 - [x] Task: Add `book/f1.1-physical-geodesy.md` to `book/_toc.yml` under the Tutorials section. d43e0c9
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Review and Finalization' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Review and Finalization' (Protocol in workflow.md) f385643
