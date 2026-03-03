@@ -23,3 +23,27 @@ def test_calculate_normal_gravity():
     # 45 Degrees
     assert math.isclose(calculate_normal_gravity(45.0), 9.8061977693, rel_tol=1e-7)
 
+
+def calculate_dynamic_height(geopotential_number: float) -> float:
+    gamma_45 = 9.806199 
+    return geopotential_number / gamma_45
+
+def calculate_orthometric_height(geopotential_number: float, mean_actual_gravity: float) -> float:
+    return geopotential_number / mean_actual_gravity
+
+def calculate_normal_height(geopotential_number: float, mean_normal_gravity: float) -> float:
+    return geopotential_number / mean_normal_gravity
+
+def test_height_systems():
+    C = 98.06199 # Example geopotential number
+    
+    # Dynamic height should be exactly 10.0 if C = 10 * gamma_45
+    assert math.isclose(calculate_dynamic_height(C), 10.0, rel_tol=1e-5)
+    
+    # Orthometric height using a slightly different actual gravity
+    g_bar = 9.81
+    assert math.isclose(calculate_orthometric_height(C, g_bar), C / g_bar, rel_tol=1e-5)
+    
+    # Normal height using a slightly different normal gravity
+    gamma_bar = 9.80
+    assert math.isclose(calculate_normal_height(C, gamma_bar), C / gamma_bar, rel_tol=1e-5)
