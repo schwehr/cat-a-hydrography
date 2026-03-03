@@ -1,15 +1,15 @@
 # Implementation Plan: Chapter F1.5 - Map Projections
 
 ## Phase 1: Setup and Content Integration
-- [ ] Task: Create the Chapter F1.5 file structure within the Jupyter Book hierarchy.
+- [x] Task: Create the Chapter F1.5 file structure within the Jupyter Book hierarchy. 6ce7bb7
     - [ ] Initialize the Markdown or Jupyter notebook file for the chapter.
     - [ ] Update the Jupyter Book `_toc.yml` to include the new chapter.
-- [ ] Task: Parse and outline topics from `third_party/S-5A_Ed1.0.2.md`.
+- [x] Task: Parse and outline topics from `third_party/S-5A_Ed1.0.2.md`. 6ce7bb7
     - [ ] Create the chapter headings and subheadings based on the prescribed order.
-- [ ] Task: Import the baseline draft from `deepresearch/f1.5-map-projections.md`.
+- [x] Task: Import the baseline draft from `deepresearch/f1.5-map-projections.md`. 6ce7bb7
     - [ ] Integrate the existing text into the structured outline.
     - [ ] Identify gaps where additional material or definitions are needed.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and Content Integration' (Protocol in workflow.md)
+- [~] Task: Conductor - User Manual Verification 'Phase 1: Setup and Content Integration' (Protocol in workflow.md)
 
 ## Phase 2: Content Expansion and Interactive Elements
 - [ ] Task: Implement distortion demonstrations.
