@@ -1,0 +1,8 @@
+{
+  "track_id": "f1_5_map_projections_20260302",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-03-02T00:00:00Z",
+  "updated_at": "2026-03-02T00:00:00Z",
+  "description": "Write chapter F1.5 on map projections. Use third_party/S-5A_Ed1.0.2.md for the list of topics and order to cover them. deepresearch/f1.5-map-projections.md has material on the topic that can be used, but please add anything necessary to the material."
+}
