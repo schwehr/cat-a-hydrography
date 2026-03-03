@@ -9,6 +9,7 @@ parts:
     - file: tutorials/basics.md
     - file: tutorials/interactive_widgets.md
     - file: f1.4-levelling.md
+    - file: f1.1-physical-geodesy.md
   - caption: Exercises
     chapters:
     - file: exercises.md
