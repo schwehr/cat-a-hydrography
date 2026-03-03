@@ -60,3 +60,10 @@ def test_f1_5_pbl_activities():
     assert 'Programming Task' in content, "F1.5 must contain a programming task"
     assert 'Case Study' in content, "F1.5 must contain a real-world case study"
     assert 'Quiz' in content, "F1.5 must contain a theoretical quiz"
+
+def test_f1_5_licensing_present():
+    assert os.path.exists('book/f1.5-map-projections.md')
+    with open('book/f1.5-map-projections.md', 'r') as f:
+        content = f.read()
+    assert 'CC-0' in content or 'Creative Commons Zero' in content, "F1.5 must specify CC-0 licensing for text"
+    assert 'Apache-2.0' in content or 'Apache 2.0' in content, "F1.5 must specify Apache-2.0 licensing for code"
