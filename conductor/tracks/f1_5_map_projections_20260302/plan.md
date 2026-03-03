@@ -24,7 +24,7 @@
     - [ ] Write necessary definitions, explanations, and supplementary text to fill identified gaps.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Content Expansion and Interactive Elements' (Protocol in workflow.md)
 
-## Phase 3: Assessments and PBL Activities
+## Phase 3: Assessments and PBL Activities [checkpoint: ad3e3ab]
 - [x] Task: Design the practical programming assignment. 4cde901
     - [ ] Create a problem description involving coordinate transformations.
     - [ ] Provide the solution code (using open-source tools) and its unit tests.
@@ -33,7 +33,7 @@
     - [ ] Formulate discussion questions for the case study.
 - [x] Task: Create the theoretical quiz. 4cde901
     - [ ] Write multiple-choice or short-answer questions reinforcing the chapter's concepts.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Assessments and PBL Activities' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Assessments and PBL Activities' (Protocol in workflow.md) 
 
 ## Phase 4: Review and Refinement
 - [ ] Task: Apply formatting, referencing, and licensing.
