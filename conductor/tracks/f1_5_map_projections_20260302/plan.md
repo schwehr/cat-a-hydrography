@@ -20,7 +20,7 @@
     - [ ] Write unit tests for the geospatial examples.
 - [x] Task: Integrate interactive widgets. 5138942
     - [ ] Implement Jupyter widgets allowing dynamic adjustment of projection parameters.
-- [ ] Task: Expand textual content.
+- [x] Task: Expand textual content. f2099d6
     - [ ] Write necessary definitions, explanations, and supplementary text to fill identified gaps.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Content Expansion and Interactive Elements' (Protocol in workflow.md)
 
