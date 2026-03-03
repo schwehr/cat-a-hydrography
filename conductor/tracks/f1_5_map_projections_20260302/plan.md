@@ -18,7 +18,7 @@
 - [x] Task: Implement geospatial library examples. 45d8c5a
     - [ ] Create Python examples utilizing `pyproj` and/or `cartopy`.
     - [ ] Write unit tests for the geospatial examples.
-- [ ] Task: Integrate interactive widgets.
+- [x] Task: Integrate interactive widgets. 5138942
     - [ ] Implement Jupyter widgets allowing dynamic adjustment of projection parameters.
 - [ ] Task: Expand textual content.
     - [ ] Write necessary definitions, explanations, and supplementary text to fill identified gaps.
