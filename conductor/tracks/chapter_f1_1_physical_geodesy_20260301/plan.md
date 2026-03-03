@@ -10,10 +10,10 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Gravity and Geopotential Models' (Protocol in workflow.md) fa7bfa5
 
 ## Phase 2: Height Systems and Deflection
-- [ ] Task: Draft section on "F1.1c Height systems" detailing dynamic, orthometric, and normal heights.
-- [ ] Task: Implement Feature: Add Python snippets explaining the mathematical differences between orthometric and dynamic heights (conceptual conversions based on different gravity denominators).
-- [ ] Task: Write Tests: Add tests for height system conversion snippets to `tests/test_f1_1_gravity.py`.
-- [ ] Task: Draft section on "F1.1d Deflection of the vertical" explaining its components and impact on hydrographic sensors.
+- [x] Task: Draft section on "F1.1c Height systems" detailing dynamic, orthometric, and normal heights. 120ba48
+- [x] Task: Implement Feature: Add Python snippets explaining the mathematical differences between orthometric and dynamic heights (conceptual conversions based on different gravity denominators). 120ba48
+- [x] Task: Write Tests: Add tests for height system conversion snippets to `tests/test_f1_1_gravity.py`. 120ba48
+- [x] Task: Draft section on "F1.1d Deflection of the vertical" explaining its components and impact on hydrographic sensors. 120ba48
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Height Systems and Deflection' (Protocol in workflow.md)
 
 ## Phase 3: Review and Finalization
