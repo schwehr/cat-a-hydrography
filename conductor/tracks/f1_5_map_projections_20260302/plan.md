@@ -15,7 +15,7 @@
 - [x] Task: Implement distortion demonstrations. 0cc2078
     - [ ] Write Python code demonstrating area and shape distortions (e.g., Tissot's indicatrix).
     - [ ] Write unit tests for the distortion calculation code.
-- [ ] Task: Implement geospatial library examples.
+- [x] Task: Implement geospatial library examples. 45d8c5a
     - [ ] Create Python examples utilizing `pyproj` and/or `cartopy`.
     - [ ] Write unit tests for the geospatial examples.
 - [ ] Task: Integrate interactive widgets.
