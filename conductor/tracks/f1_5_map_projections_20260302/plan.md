@@ -25,13 +25,13 @@
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Content Expansion and Interactive Elements' (Protocol in workflow.md)
 
 ## Phase 3: Assessments and PBL Activities
-- [ ] Task: Design the practical programming assignment.
+- [x] Task: Design the practical programming assignment. 4cde901
     - [ ] Create a problem description involving coordinate transformations.
     - [ ] Provide the solution code (using open-source tools) and its unit tests.
-- [ ] Task: Develop the real-world case study.
+- [x] Task: Develop the real-world case study. 4cde901
     - [ ] Write the narrative analyzing the impact of incorrect projection choices in hydrography.
     - [ ] Formulate discussion questions for the case study.
-- [ ] Task: Create the theoretical quiz.
+- [x] Task: Create the theoretical quiz. 4cde901
     - [ ] Write multiple-choice or short-answer questions reinforcing the chapter's concepts.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Assessments and PBL Activities' (Protocol in workflow.md)
 
