@@ -45,3 +45,10 @@ def test_f1_5_interactive_widget():
     with open('book/f1.5-map-projections.md', 'r') as f:
         content = f.read()
     assert 'ipywidgets' in content or 'interact' in content or '{code-cell} ipython3' in content, "F1.5 must contain an interactive widget demonstration"
+
+def test_f1_5_glossary_present():
+    assert os.path.exists('book/f1.5-map-projections.md')
+    with open('book/f1.5-map-projections.md', 'r') as f:
+        content = f.read()
+    assert 'Glossary' in content, "F1.5 must contain a Glossary section"
+    assert 'WGS84' in content, "F1.5 must explain WGS84"
