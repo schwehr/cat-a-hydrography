@@ -11,7 +11,7 @@
     - [ ] Identify gaps where additional material or definitions are needed.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Setup and Content Integration' (Protocol in workflow.md) 5664264
 
-## Phase 2: Content Expansion and Interactive Elements
+## Phase 2: Content Expansion and Interactive Elements [checkpoint: 4a4f20a]
 - [x] Task: Implement distortion demonstrations. 0cc2078
     - [ ] Write Python code demonstrating area and shape distortions (e.g., Tissot's indicatrix).
     - [ ] Write unit tests for the distortion calculation code.
