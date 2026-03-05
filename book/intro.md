@@ -1,16 +1,7 @@
 (intro)=
-# Welcome to the TeachBooks Template
+# Welcome to the LLM Generated Cat A Hydrography textbook
 
-This interactive platform is designed specifically for creating engaging, high-quality educational materials for University Students, Professional Learners, and Practitioners. 
+This is an experiment in generating a book almost entirely by LLM in the first
+draft. As such, expect all sorts of errors and inconsistencies. The plan is
+to eventually use human editors to verify and improve the content.
 
-By prioritizing a Minimalist and Focused UX, we ensure an accessible and intuitive learning journey.
-
-## Pedagogical Approach
-The TeachBook employs a Problem-Based Learning instructional strategy. We introduce concepts through authentic challenges, leading directly into step-by-step tutorials and actionable solutions.
-
-## Getting Started
-To get started, please follow our foundational step-by-step guides:
-- [Basics of TeachBooks](tutorials/basics.md)
-- [Interactive Widgets Integration](tutorials/interactive_widgets.md)
-
-Explore these tutorials to build and enhance your educational content effectively.
