@@ -38,10 +38,10 @@
 - [x] Task: Conductor - User Manual Verification 'Interactive Python and TDD Integration' (Protocol in workflow.md)
 
 ## Phase 4: Final Review and Build
-- [ ] Task: Complete full local build
-    - [ ] Run the Jupyter Book/Sphinx build command (e.g., `jupyter-book build .`).
-    - [ ] Verify there are no warnings or missing references.
-- [ ] Task: Code style and linting verification
-    - [ ] Run the project's linters (e.g., `flake8`, `black`) on the embedded or attached Python code.
-    - [ ] Ensure adherence to the CC-0 and Apache-2.0 licenses.
-- [ ] Task: Conductor - User Manual Verification 'Final Review and Build' (Protocol in workflow.md)
+- [x] Task: Complete full local build
+    - [x] Run the Jupyter Book/Sphinx build command (e.g., `jupyter-book build .`).
+    - [x] Verify there are no warnings or missing references.
+- [x] Task: Code style and linting verification
+    - [x] Run the project's linters (e.g., `flake8`, `black`) on the embedded or attached Python code.
+    - [x] Ensure adherence to the CC-0 and Apache-2.0 licenses.
+- [x] Task: Conductor - User Manual Verification 'Final Review and Build' (Protocol in workflow.md)
