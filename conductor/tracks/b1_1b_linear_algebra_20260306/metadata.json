@@ -1,0 +1,8 @@
+{
+  "track_id": "b1_1b_linear_algebra_20260306",
+  "type": "feature",
+  "status": "new",
+  "created_at": "2026-03-06T00:00:00Z",
+  "updated_at": "2026-03-06T00:00:00Z",
+  "description": "Write chapter B1.1b on Linear Algebra. Use @third_party/S-5A_Ed1.0.2.md for the list of topics and order to cover them. Integrate @deepresearch/b1.1b-linear-algebra-in-geodesy.md material."
+}
