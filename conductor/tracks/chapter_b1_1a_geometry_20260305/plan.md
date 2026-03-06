@@ -24,18 +24,18 @@
     - [x] Link terms to the NASA GCMD Keyword Viewer, Wikipedia, or primary references.
 - [x] Task: Conductor - User Manual Verification 'Core Content and Theory Implementation' (Protocol in workflow.md)
 
-## Phase 3: Interactive Python and TDD Integration
-- [ ] Task: Write unit tests for Geometry calculations (Red Phase)
-    - [ ] Create a Python test file (e.g., `test_b1_1a_geometry.py`) for the calculations to be introduced.
-    - [ ] Write tests validating the calculation of eccentricity, flattening, and parametric coordinate generation.
-    - [ ] Ensure tests fail as expected.
-- [ ] Task: Implement Geometry calculation functions (Green Phase)
-    - [ ] Write the Python functions in the chapter's code blocks (or an imported module) to satisfy the unit tests.
-    - [ ] Verify that all tests pass and coverage is >80%.
-- [ ] Task: Integrate `ipywidgets` visualizations
-    - [ ] Develop interactive sliders to demonstrate how changing eccentricity affects the conic section shape.
-    - [ ] Ensure the widgets render correctly within the Jupyter Book environment.
-- [ ] Task: Conductor - User Manual Verification 'Interactive Python and TDD Integration' (Protocol in workflow.md)
+## Phase 3: Interactive Python and TDD Integration [checkpoint: 32a6c30]
+- [x] Task: Write unit tests for Geometry calculations (Red Phase)
+    - [x] Create a Python test file (e.g., `test_b1_1a_geometry.py`) for the calculations to be introduced.
+    - [x] Write tests validating the calculation of eccentricity, flattening, and parametric coordinate generation.
+    - [x] Ensure tests fail as expected.
+- [x] Task: Implement Geometry calculation functions (Green Phase)
+    - [x] Write the Python functions in the chapter's code blocks (or an imported module) to satisfy the unit tests.
+    - [x] Verify that all tests pass and coverage is >80%.
+- [x] Task: Integrate `ipywidgets` visualizations
+    - [x] Develop interactive sliders to demonstrate how changing eccentricity affects the conic section shape.
+    - [x] Ensure the widgets render correctly within the Jupyter Book environment.
+- [x] Task: Conductor - User Manual Verification 'Interactive Python and TDD Integration' (Protocol in workflow.md)
 
 ## Phase 4: Final Review and Build
 - [ ] Task: Complete full local build
