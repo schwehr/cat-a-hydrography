@@ -1,13 +1,13 @@
 # Implementation Plan: Chapter B1.1b - Linear Algebra
 
-## Phase 1: Setup and Documentation Skeleton
-- [~] Task: Initialize Chapter Structure
-    - [ ] Create the primary Jupyter Notebook (`b1.1b_linear_algebra.ipynb` or Markdown equivalent depending on Jupyter Book config).
-    - [ ] Add explicit CC-0 licensing header for text/data and Apache-2.0 header for code blocks (using SPDX identifiers).
-    - [ ] Create the glossary section skeleton and link to primary references, Wikipedia/Wiktionary, and NASA GCMD Keyword Viewer.
+## Phase 1: Setup and Documentation Skeleton [checkpoint: e20b0ee]
+- [x] Task: Initialize Chapter Structure 6bc3267
+    - [x] Create the primary Jupyter Notebook (`b1.1b_linear_algebra.ipynb` or Markdown equivalent depending on Jupyter Book config).
+    - [x] Add explicit CC-0 licensing header for text/data and Apache-2.0 header for code blocks (using SPDX identifiers).
+    - [x] Create the glossary section skeleton and link to primary references, Wikipedia/Wiktionary, and NASA GCMD Keyword Viewer.
 - [x] Task: Import Initial Content 6bc3267
-    - [ ] Import and format the existing content from `deepresearch/b1.1b-linear-algebra-in-geodesy.md`.
-- [ ] Task: Conductor - User Manual Verification 'Setup and Documentation Skeleton' (Protocol in workflow.md)
+    - [x] Import and format the existing content from `deepresearch/b1.1b-linear-algebra-in-geodesy.md`.
+- [x] Task: Conductor - User Manual Verification 'Setup and Documentation Skeleton' e20b0ee (Protocol in workflow.md)
 
 ## Phase 2: Topic (i) - Vector/Affine Spaces, Inner Products, Norms
 - [ ] Task: Implement Mathematical Foundations
