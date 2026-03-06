@@ -37,7 +37,7 @@
     - [x] Ensure the widgets render correctly within the Jupyter Book environment.
 - [x] Task: Conductor - User Manual Verification 'Interactive Python and TDD Integration' (Protocol in workflow.md)
 
-## Phase 4: Final Review and Build
+## Phase 4: Final Review and Build [checkpoint: eb91a7f]
 - [x] Task: Complete full local build
     - [x] Run the Jupyter Book/Sphinx build command (e.g., `jupyter-book build .`).
     - [x] Verify there are no warnings or missing references.
