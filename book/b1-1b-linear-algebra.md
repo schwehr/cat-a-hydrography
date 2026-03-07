@@ -8,6 +8,9 @@
 * **NASA GCMD Keyword Viewer:** [https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all](https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all)
 * **Wikipedia:** [https://www.wikipedia.org/](https://www.wikipedia.org/)
 * **Wiktionary:** [https://www.wiktionary.org/](https://www.wiktionary.org/)
+* **Affine Space:** A mathematical structure consisting of a set of points and a free and transitive action by a vector space. It lacks a true geometric origin.
+* **Norm:** A mathematical function that assigns a strictly positive length or size to each vector in a vector space.
+* **Vector Space:** A collection of vectors, which may be added together and multiplied by scalars, and satisfying certain axioms.
 # **Advanced Linear Algebra for Geodesy and Hydrographic Surveying: A Comprehensive Analysis of IHO S-5A B1.1b Standards**
 
 ## **1\. Introduction to Geodetic and Hydrographic Linear Algebra**
@@ -40,9 +43,56 @@ This mathematical distinction is paramount in geodesy and surveying.15 When coor
 
 An affine transformation maps an affine space onto itself.17 This type of mathematical automorphism preserves the collinearity of points, ensuring that sets of parallel lines remain rigorously parallel post-transformation.17 It also preserves the ratios of distances along parallel line segments.17 However, it does not necessarily preserve the Euclidean origin, absolute distances, or angular relationships between intersecting lines.17 Every affine transformation can be functionally represented as the composition of a linear transformation acting upon the associated vector space and a spatial translation mapping the affine space.16 Consequently, while all purely linear transformations are affine, not all affine transformations are purely linear, as a linear transformation strictly preserves the origin, whereas an affine transformation permits the origin to drift.17
 
+### Executable Example: Vector Space operations with SymPy
+
+We can use SymPy to perform symbolic derivations of vector operations demonstrating closure and scalar multiplication.
+
+```{code-cell} ipython3
+import sympy as sp
+
+u1, u2, u3 = sp.symbols("u1 u2 u3")
+v1, v2, v3 = sp.symbols("v1 v2 v3")
+c = sp.symbols("c")
+
+u = sp.Matrix([u1, u2, u3])
+v = sp.Matrix([v1, v2, v3])
+
+addition = u + v
+scalar_mult = c * u
+
+print("Vector Addition:\n", addition)
+print("\nScalar Multiplication:\n", scalar_mult)
+```
+
 ## **3\. Inner Products, Norms, and Geodetic Weighting**
 
 ### **3.1 Euclidean Spaces and Orthogonality**
+
+### Executable Example: Inner Product and Norm Calculation with NumPy
+
+```{code-cell} ipython3
+import numpy as np
+
+def vector_add(v1: np.ndarray, v2: np.ndarray) -> np.ndarray:
+    """Adds two vectors in a vector space."""
+    return v1 + v2
+
+def calculate_inner_product(v1: np.ndarray, v2: np.ndarray) -> float:
+    """Calculates the Euclidean inner product (dot product) of two vectors."""
+    return float(np.dot(v1, v2))
+
+def calculate_norm(v: np.ndarray) -> float:
+    """Calculates the Euclidean norm (magnitude) of a vector."""
+    return float(np.linalg.norm(v))
+
+# Geodetic synthetic example:
+v1 = np.array([1, 2, 3])
+v2 = np.array([4, 5, 6])
+
+print("Inner product:", calculate_inner_product(v1, v2))
+print("Norm of v1:", calculate_norm(v1))
+```
+
 
 Within a real vector space, the formal introduction of an inner product operation, denoted as ![][image19], algebraically induces a highly structured geometric environment, transforming the space into an inner product space or a Euclidean space.12 This structure facilitates the definition of absolute lengths and angular measurements. The standard Euclidean norm of a vector ![][image20], which represents its geometric magnitude, is defined as the square root of the inner product of the vector with itself: ![][image21].18
 

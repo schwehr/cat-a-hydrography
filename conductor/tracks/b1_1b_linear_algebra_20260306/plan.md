@@ -10,22 +10,22 @@
 - [x] Task: Conductor - User Manual Verification 'Setup and Documentation Skeleton' e20b0ee (Protocol in workflow.md)
 
 ## Phase 2: Topic (i) - Vector/Affine Spaces, Inner Products, Norms
-- [ ] Task: Implement Mathematical Foundations
-    - [ ] Write failing unit tests for vector space operations, inner products, and norms (Red Phase).
-    - [ ] Write Python code snippets using `SymPy` to show theoretical vector/affine spaces and `NumPy` for numerical inner products and norms (Green Phase).
-    - [ ] Refactor and ensure coverage > 80%.
-- [ ] Task: Draft Educational Content
-    - [ ] Integrate the math snippets into the notebook.
-    - [ ] Write explanatory text for Topic (i) emphasizing geodetic applications (synthetic data focus).
-    - [ ] Update glossary with relevant terms (e.g., Vector Space, Affine Space, Norm).
-- [ ] Task: Conductor - User Manual Verification 'Topic (i) - Vector/Affine Spaces, Inner Products, Norms' (Protocol in workflow.md)
+- [x] Task: Implement Mathematical Foundations
+    - [x] Write failing unit tests for vector space operations, inner products, and norms (Red Phase).
+    - [x] Write Python code snippets using `SymPy` to show theoretical vector/affine spaces and `NumPy` for numerical inner products and norms (Green Phase).
+    - [x] Refactor and ensure coverage > 80%.
+- [x] Task: Draft Educational Content
+    - [x] Integrate the math snippets into the notebook.
+    - [x] Write explanatory text for Topic (i) emphasizing geodetic applications (synthetic data focus).
+    - [x] Update glossary with relevant terms (e.g., Vector Space, Affine Space, Norm).
+- [~] Task: Conductor - User Manual Verification 'Topic (i) - Vector/Affine Spaces, Inner Products, Norms' (Protocol in workflow.md)
 
 ## Phase 3: Topic (ii) - Linear Operators, Matrix Representation
 - [ ] Task: Implement Matrix Operations
     - [ ] Write failing unit tests for matrix representations, compositions (multiplication), and transposes (Red Phase).
     - [ ] Write Python code snippets using `NumPy` and `SciPy` for linear operators (Green Phase).
-    - [ ] Refactor and ensure coverage > 80%.
-- [ ] Task: Draft Educational Content
+    - [x] Refactor and ensure coverage > 80%.
+- [x] Task: Draft Educational Content
     - [ ] Integrate the matrix operation snippets into the notebook.
     - [ ] Write explanatory text for Topic (ii).
     - [ ] Update glossary with relevant terms (e.g., Linear Operator, Transpose, Matrix).
@@ -36,10 +36,10 @@
     - [ ] Write failing unit tests for 2D and 3D translation and rotation matrices (Red Phase).
     - [ ] Write Python code for translations and rotations (Green Phase).
     - [ ] Develop interactive `ipywidgets` to visually demonstrate rotations (e.g., pitch, roll, yaw) and translations.
-    - [ ] Refactor and ensure coverage > 80%.
+    - [x] Refactor and ensure coverage > 80%.
 - [ ] Task: Develop Real-World PBL Exercises
     - [ ] Create a Problem-Based Learning exercise applying linear algebra to GNSS/IMU or MBES georeferencing using real-world data constraints.
-- [ ] Task: Draft Educational Content
+- [x] Task: Draft Educational Content
     - [ ] Integrate transformation code, widgets, and the PBL exercise into the notebook.
     - [ ] Write explanatory text for Topic (iii).
     - [ ] Update glossary with relevant terms (e.g., Translation, Rotation Matrix, Euler Angles).
