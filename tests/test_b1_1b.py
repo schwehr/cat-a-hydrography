@@ -27,3 +27,24 @@ def test_vector_addition():
 def test_sympy_demo():
     u, v, addition, scalar_mult = sympy_vector_space_demo()
     assert addition[0] == u[0] + v[0]
+
+from book.b1_1b import matrix_compose, matrix_transpose, linear_operator_demo
+
+def test_matrix_compose():
+    A = np.array([[1, 2], [3, 4]])
+    B = np.array([[5, 6], [7, 8]])
+    result = matrix_compose(A, B)
+    expected = np.array([[19, 22], [43, 50]])
+    assert np.all(result == expected)
+
+def test_matrix_transpose():
+    A = np.array([[1, 2], [3, 4]])
+    result = matrix_transpose(A)
+    expected = np.array([[1, 3], [2, 4]])
+    assert np.all(result == expected)
+
+def test_linear_operator_demo():
+    A, v, result = linear_operator_demo()
+    assert result.shape == (2, )
+    assert result[0] == 5
+    assert result[1] == 11

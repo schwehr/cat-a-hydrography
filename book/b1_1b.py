@@ -26,3 +26,16 @@ def sympy_vector_space_demo():
     scalar_mult = c * u
     
     return u, v, addition, scalar_mult
+def matrix_compose(A: np.ndarray, B: np.ndarray) -> np.ndarray:
+    """Composes two matrices (matrix multiplication)."""
+    return A @ B
+
+def matrix_transpose(A: np.ndarray) -> np.ndarray:
+    """Returns the transpose of a matrix."""
+    return A.T
+
+def linear_operator_demo():
+    """Demonstrates a simple linear operator applying to a vector."""
+    A = np.array([[1, 2], [3, 4]])
+    v = np.array([1, 2])
+    return A, v, A @ v

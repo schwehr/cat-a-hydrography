@@ -21,15 +21,15 @@
 - [x] Task: Conductor - User Manual Verification 'Topic (i) - Vector/Affine Spaces, Inner Products, Norms' edf935e (Protocol in workflow.md)
 
 ## Phase 3: Topic (ii) - Linear Operators, Matrix Representation
-- [ ] Task: Implement Matrix Operations
-    - [ ] Write failing unit tests for matrix representations, compositions (multiplication), and transposes (Red Phase).
-    - [ ] Write Python code snippets using `NumPy` and `SciPy` for linear operators (Green Phase).
+- [x] Task: Implement Matrix Operations
+    - [x] Write failing unit tests for matrix representations, compositions (multiplication), and transposes (Red Phase).
+    - [x] Write Python code snippets using `NumPy` and `SciPy` for linear operators (Green Phase).
     - [x] Refactor and ensure coverage > 80%.
 - [x] Task: Draft Educational Content
-    - [ ] Integrate the matrix operation snippets into the notebook.
-    - [ ] Write explanatory text for Topic (ii).
-    - [ ] Update glossary with relevant terms (e.g., Linear Operator, Transpose, Matrix).
-- [ ] Task: Conductor - User Manual Verification 'Topic (ii) - Linear Operators, Matrix Representation' (Protocol in workflow.md)
+    - [x] Integrate the matrix operation snippets into the notebook.
+    - [x] Write explanatory text for Topic (ii).
+    - [x] Update glossary with relevant terms (e.g., Linear Operator, Transpose, Matrix).
+- [~] Task: Conductor - User Manual Verification 'Topic (ii) - Linear Operators, Matrix Representation' (Protocol in workflow.md)
 
 ## Phase 4: Topic (iii) - Translations, Rotations, Spatial Transformations
 - [ ] Task: Implement Spatial Transformations & Interactivity
