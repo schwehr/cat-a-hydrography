@@ -32,18 +32,18 @@
 - [x] Task: Conductor - User Manual Verification 'Topic (ii) - Linear Operators, Matrix Representation' 3fb30f5 (Protocol in workflow.md)
 
 ## Phase 4: Topic (iii) - Translations, Rotations, Spatial Transformations
-- [ ] Task: Implement Spatial Transformations & Interactivity
-    - [ ] Write failing unit tests for 2D and 3D translation and rotation matrices (Red Phase).
-    - [ ] Write Python code for translations and rotations (Green Phase).
-    - [ ] Develop interactive `ipywidgets` to visually demonstrate rotations (e.g., pitch, roll, yaw) and translations.
+- [~] Task: Implement Spatial Transformations - [ ] Task: Implement Spatial Transformations & Interactivity Interactivity
+    - [x] Write failing unit tests for 2D and 3D translation and rotation matrices (Red Phase).
+    - [x] Write Python code for translations and rotations (Green Phase).
+    - [x] Develop interactive `ipywidgets` to visually demonstrate rotations (e.g., pitch, roll, yaw) and translations.
     - [x] Refactor and ensure coverage > 80%.
-- [ ] Task: Develop Real-World PBL Exercises
-    - [ ] Create a Problem-Based Learning exercise applying linear algebra to GNSS/IMU or MBES georeferencing using real-world data constraints.
+- [x] Task: Develop Real-World PBL Exercises
+    - [x] Create a Problem-Based Learning exercise applying linear algebra to GNSS/IMU or MBES georeferencing using real-world data constraints.
 - [x] Task: Draft Educational Content
-    - [ ] Integrate transformation code, widgets, and the PBL exercise into the notebook.
-    - [ ] Write explanatory text for Topic (iii).
-    - [ ] Update glossary with relevant terms (e.g., Translation, Rotation Matrix, Euler Angles).
-- [ ] Task: Conductor - User Manual Verification 'Topic (iii) - Translations, Rotations, Spatial Transformations' (Protocol in workflow.md)
+    - [x] Integrate transformation code, widgets, and the PBL exercise into the notebook.
+    - [x] Write explanatory text for Topic (iii).
+    - [x] Update glossary with relevant terms (e.g., Translation, Rotation Matrix, Euler Angles).
+- [~] Task: Conductor - User Manual Verification 'Topic (iii) - Translations, Rotations, Spatial Transformations' (Protocol in workflow.md)
 
 ## Phase 5: Final Review and Build Verification
 - [ ] Task: Verify Project Integration

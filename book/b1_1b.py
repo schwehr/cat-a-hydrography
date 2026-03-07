@@ -39,3 +39,17 @@ def linear_operator_demo():
     A = np.array([[1, 2], [3, 4]])
     v = np.array([1, 2])
     return A, v, A @ v
+
+def translate_2d(point: np.ndarray, translation: np.ndarray) -> np.ndarray:
+    """Translates a 2D point by a given vector."""
+    return point + translation
+
+def rotate_2d(point: np.ndarray, angle_rad: float) -> np.ndarray:
+    """Rotates a 2D point around the origin by a given angle in radians."""
+    cos_a = np.cos(angle_rad)
+    sin_a = np.sin(angle_rad)
+    rotation_matrix = np.array([
+        [cos_a, -sin_a],
+        [sin_a, cos_a]
+    ])
+    return rotation_matrix @ point

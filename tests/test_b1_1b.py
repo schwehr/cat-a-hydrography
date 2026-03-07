@@ -48,3 +48,19 @@ def test_linear_operator_demo():
     assert result.shape == (2, )
     assert result[0] == 5
     assert result[1] == 11
+
+from book.b1_1b import translate_2d, rotate_2d
+
+def test_translate_2d():
+    point = np.array([1.0, 2.0])
+    translation = np.array([3.0, -1.0])
+    result = translate_2d(point, translation)
+    expected = np.array([4.0, 1.0])
+    assert np.all(result == expected)
+
+def test_rotate_2d():
+    point = np.array([1.0, 0.0])
+    angle_rad = np.pi / 2  # 90 degrees
+    result = rotate_2d(point, angle_rad)
+    expected = np.array([0.0, 1.0])
+    assert np.allclose(result, expected)
