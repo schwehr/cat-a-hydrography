@@ -9,7 +9,7 @@
     - [x] Import and format the existing content from `deepresearch/b1.1b-linear-algebra-in-geodesy.md`.
 - [x] Task: Conductor - User Manual Verification 'Setup and Documentation Skeleton' e20b0ee (Protocol in workflow.md)
 
-## Phase 2: Topic (i) - Vector/Affine Spaces, Inner Products, Norms
+## Phase 2: Topic (i) - Vector/Affine Spaces, Inner Products, Norms [checkpoint: edf935e]
 - [x] Task: Implement Mathematical Foundations
     - [x] Write failing unit tests for vector space operations, inner products, and norms (Red Phase).
     - [x] Write Python code snippets using `SymPy` to show theoretical vector/affine spaces and `NumPy` for numerical inner products and norms (Green Phase).
@@ -18,7 +18,7 @@
     - [x] Integrate the math snippets into the notebook.
     - [x] Write explanatory text for Topic (i) emphasizing geodetic applications (synthetic data focus).
     - [x] Update glossary with relevant terms (e.g., Vector Space, Affine Space, Norm).
-- [~] Task: Conductor - User Manual Verification 'Topic (i) - Vector/Affine Spaces, Inner Products, Norms' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Topic (i) - Vector/Affine Spaces, Inner Products, Norms' edf935e (Protocol in workflow.md)
 
 ## Phase 3: Topic (ii) - Linear Operators, Matrix Representation
 - [ ] Task: Implement Matrix Operations
