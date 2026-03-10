@@ -24,7 +24,7 @@
 ## Phase 4: Interactive Feature Development
 - [x] Task: Develop: Interactive Convergence Visualization widget using ipywidgets. fc68c7d
 - [x] Task: Develop: Rounding Error Explorer widget using ipywidgets. 86dbb5e
-- [ ] Task: Develop: Equation Sandbox widget for custom equation solving.
+- [x] Task: Develop: Equation Sandbox widget for custom equation solving. 8696f92
 - [ ] Task: Conductor - User Manual Verification 'Phase 4: Interactive Feature Development' (Protocol in workflow.md)
 
 ## Phase 5: Final Review and Integration
