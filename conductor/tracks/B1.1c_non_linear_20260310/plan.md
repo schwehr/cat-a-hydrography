@@ -15,7 +15,7 @@
 ## Phase 3: Python Implementation and Unit Testing
 - [x] Task: Write Tests: Implementation of Bisection, Newton-Raphson, and Secant methods. 9432256
 - [x] Task: Implement: Numerical solvers for non-linear equations in Python. 43a138a
-- [ ] Task: Write Tests: Floating-point precision and rounding error demonstrations.
+- [x] Task: Write Tests: Floating-point precision and rounding error demonstrations. 53951ea
 - [ ] Task: Implement: Precision analysis and error propagation scripts using NumPy.
 - [ ] Task: Write Tests: Hydrographic Case Study (ECEF to Geodetic transformation).
 - [ ] Task: Implement: Geodetic coordinate conversion example.
