@@ -2,7 +2,7 @@
 
 ## Phase 1: Research and Setup
 - [x] Task: Create track directory structure and metadata. 0c0b01c
-- [ ] Task: Research and define the mathematical parameters for the "ECEF to Geodetic" hydrographic case study.
+- [x] Task: Research and define the mathematical parameters for the "ECEF to Geodetic" hydrographic case study. 3a38ebb
 - [ ] Task: Identify and document all primary references and glossary terms for the chapter.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Research and Setup' (Protocol in workflow.md)
 
