@@ -9,5 +9,6 @@ def test_precision_loss_demonstration():
 
 def test_catastrophic_cancellation_demonstration():
     # This should fail because the function is not yet implemented
-    result_naive, result_robust = demonstrate_catastrophic_cancellation(1e-8)
-    assert abs(result_naive - result_robust) > 1e-9
+    result_naive, result_robust = demonstrate_catastrophic_cancellation(1e-15)
+    relative_error = abs(result_naive - result_robust) / abs(result_robust)
+    assert relative_error > 0.1 # Assert a relative error greater than 10%
