@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b1_1c_nl_solutions"
+version = "0.0.1"
+authors = [
+  { name="Gemini", email="gemini@google.com" },
+]
+description = "Numerical solvers for non-linear equations"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gemini/b1_1c_nl_solutions"
+"Bug Tracker" = "https://github.com/gemini/b1_1c_nl_solutions/issues"
+
+[tool.setuptools.packages.find]
+include = ["b1_1c_nl_solutions"]
