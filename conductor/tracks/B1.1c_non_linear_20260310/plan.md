@@ -13,7 +13,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Authoring Theoretical Content' (Protocol in workflow.md) 702ce81
 
 ## Phase 3: Python Implementation and Unit Testing
-- [ ] Task: Write Tests: Implementation of Bisection, Newton-Raphson, and Secant methods.
+- [x] Task: Write Tests: Implementation of Bisection, Newton-Raphson, and Secant methods. 9432256
 - [ ] Task: Implement: Numerical solvers for non-linear equations in Python.
 - [ ] Task: Write Tests: Floating-point precision and rounding error demonstrations.
 - [ ] Task: Implement: Precision analysis and error propagation scripts using NumPy.
