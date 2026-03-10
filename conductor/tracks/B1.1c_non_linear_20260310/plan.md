@@ -9,7 +9,7 @@
 ## Phase 2: Authoring Theoretical Content
 - [x] Task: Draft Section B1.2c.1: Iterative Methods (Bisection, Newton-Raphson, Secant). 9baea83
 - [x] Task: Draft Section B1.2c.2: Rounding and Numerical Errors (Precision, Error Analysis, Condition Numbers). 41809e3
-- [ ] Task: Draft Section B1.2c.3: Commercial Alternatives (MATLAB, CARIS, Trimble, ArcGIS Pro) and S-5A Topic Mapping.
+- [x] Task: Draft Section B1.2c.3: Commercial Alternatives (MATLAB, CARIS, Trimble, ArcGIS Pro) and S-5A Topic Mapping. 551f6af
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Authoring Theoretical Content' (Protocol in workflow.md)
 
 ## Phase 3: Python Implementation and Unit Testing
