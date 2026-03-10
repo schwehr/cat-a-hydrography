@@ -7,7 +7,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Research and Setup' (Protocol in workflow.md) 17a74d6
 
 ## Phase 2: Authoring Theoretical Content
-- [ ] Task: Draft Section B1.2c.1: Iterative Methods (Bisection, Newton-Raphson, Secant).
+- [x] Task: Draft Section B1.2c.1: Iterative Methods (Bisection, Newton-Raphson, Secant). 9baea83
 - [ ] Task: Draft Section B1.2c.2: Rounding and Numerical Errors (Precision, Error Analysis, Condition Numbers).
 - [ ] Task: Draft Section B1.2c.3: Commercial Alternatives (MATLAB, CARIS, Trimble, ArcGIS Pro) and S-5A Topic Mapping.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Authoring Theoretical Content' (Protocol in workflow.md)
