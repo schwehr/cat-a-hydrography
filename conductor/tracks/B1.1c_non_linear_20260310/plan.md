@@ -30,5 +30,5 @@
 ## Phase 5: Final Review and Integration
 - [x] Task: Assemble all components into the final Jupyter notebook for Chapter B1.2c. 2cbd365
 - [x] Task: Verify all citations, glossary links, and SPDX compliance. cb4a57d
-- [ ] Task: Execute final build, linting (`glint`), and coverage (>80%) verification.
+- [~] Task: Execute final build, linting (`glint`), and coverage (>80%) verification.
 - [ ] Task: Conductor - User Manual Verification 'Phase 5: Final Review and Integration' (Protocol in workflow.md)
